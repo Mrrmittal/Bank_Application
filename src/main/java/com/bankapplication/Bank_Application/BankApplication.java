@@ -11,7 +11,6 @@ public class BankApplication {
 		OperationImpl operation = new OperationImpl();
 		operation.bankInfo();
 		SpringApplication.run(BankApplication.class, args);
-
 	}
 
 }
